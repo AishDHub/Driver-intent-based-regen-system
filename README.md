@@ -16,6 +16,14 @@ During deceleration, the motor continues spinning due to inertia. At this stage,
 
 This prototype demonstrates the **concept** of regenerative braking rather than implementing a complete battery charging system.
 
+## 🎥 Project Demonstration
+
+A short demonstration video showing the complete operation of the Driver-Intent-Based Regenerative Braking System, including motor operation, driver-controlled braking using the potentiometer, LED indication during regenerative braking, and the overall working prototype.
+
+Watch the complete working demonstration of the project here:
+
+**YouTube Demo:** https://youtu.be/zaUXHkkjzvo
+
 ---
 
 # Objectives
@@ -206,6 +214,10 @@ This generated voltage passes through a diode to protect the circuit and drives 
 
 A voltage sensor monitors the electrical behavior during this process.
 
+## Complete Working Setup
+
+![Complete Working Setup](Images/Working_setup.jpg)
+
 ---
 
 # Understanding the Prototype
@@ -235,6 +247,12 @@ The generated electrical energy is relatively small because:
 * The braking duration is short.
 
 Despite this, the LED and voltage sensor clearly demonstrate that energy is produced during deceleration.
+
+---
+
+## The Overall Demo
+
+![Overall Demo](Images/Overall_demo.jpg)
 
 ---
 
