@@ -216,7 +216,7 @@ A voltage sensor monitors the electrical behavior during this process.
 
 ## Complete Working Setup
 
-![Complete Working Setup](Images/Working_setup.jpg)
+![Complete Working Setup](Images/Working_setup.jpeg)
 
 ---
 
@@ -252,7 +252,7 @@ Despite this, the LED and voltage sensor clearly demonstrate that energy is prod
 
 ## The Overall Demo
 
-![Overall Demo](Images/Overall_demo.jpg)
+![Overall Demo](Images/Overall_demo.jpeg)
 
 ---
 
