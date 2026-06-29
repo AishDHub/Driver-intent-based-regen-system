@@ -163,32 +163,18 @@ Thus,
 ---
 
 # System Architecture
+```mermaid
+flowchart TD
+    A[Potentiometer<br/>Brake Input] --> B[Arduino UNO]
+    B --> C[L298N Motor Driver]
+    C --> D[DC Motor + Wheel]
 
+    D --> E[Braking / Deceleration]
+    E --> F[Motor Acts as Generator]
+
+    F --> G[LED Indicator]
+    F --> H[Voltage Sensor]
 ```
-Potentiometer
-      │
-      ▼
- Arduino UNO
-      │
-      ▼
-L298N Motor Driver
-      │
-      ▼
-DC Motor + Wheel
-      │
-      ▼
-During Braking
-      │
-      ▼
-Motor acts as Generator
-      │
-      ├────────► LED Indicator
-      │
-      └────────► Voltage Sensor
-```
-
----
-
 # Flow of Operation
 ```mermaid
 flowchart TD
