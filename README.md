@@ -190,52 +190,20 @@ Motor acts as Generator
 ---
 
 # Flow of Operation
-Start
-
-↓
-
-Power ON
-
-↓
-
-Motor Rotates
-
-↓
-
-Wheel Gains Speed
-
-↓
-
-Potentiometer Reads Brake Input
-
-↓
-
-Arduino Calculates Braking Level
-
-↓
-
-Motor Speed Reduced
-
-↓
-
-Wheel Continues Due to Inertia
-
-↓
-
-Motor Generates Small Voltage
-
-↓
-
-LED Glows
-
-↓
-
-Voltage Sensor Measures Output
-
-↓
-
-Stop
-
+```mermaid
+flowchart TD
+    A[Start] --> B[Power ON]
+    B --> C[Motor Rotates]
+    C --> D[Wheel Gains Speed]
+    D --> E[Read Potentiometer]
+    E --> F[Arduino Calculates Braking]
+    F --> G[Reduce Motor Speed]
+    G --> H[Motor Acts as Generator]
+    H --> I[LED Glows]
+    H --> J[Voltage Sensor Measures Output]
+    I --> K[End]
+    J --> K
+```
 # Circuit Description
 
 The Arduino reads the potentiometer value through an analog input.
